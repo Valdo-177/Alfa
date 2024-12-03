@@ -1,14 +1,11 @@
 import React from 'react'
-import { Button } from './button'
-import Image from 'next/image';
-import GlobalSvg from '@/assets/Ic_Globe.svg'
 import CardHero from './CardHero';
 
-const IconGlobal = () => {
-    return(
-        <Image src={GlobalSvg} alt=''/>
-    )
-};
+// const IconGlobal = () => {
+//     return(
+//         <Image src={GlobalSvg} alt=''/>
+//     )
+// };
 
 const HeroSection = () => {
     return (
@@ -21,7 +18,6 @@ const HeroSection = () => {
                 <div className='sm:w-[30rem] flex flex-col items-center sm:items-start gap-4'>
                     <h3 className='text-4xl font-semibold text-center sm:text-start'>Tu solución confiable en medidores de temperatura de alta resistencia</h3>
                     <p className='text-lg text-center sm:text-start'>Diseñados para soportar las condiciones más extremas, nuestros productos te garantizan rendimiento y durabilidad.</p>
-                    <Button className='bg-transparent hover:bg-transparent shadow-none text-lg flex items-center gap-3 hover:gap-5 w-40 transition-all ease-in-out'>Ver más <IconGlobal/></Button>
                 </div>
             </div>
             <div className='flex flex-col sm:flex-row items-end sm:w-[60rem] sm:absolute -bottom-[6rem]'>

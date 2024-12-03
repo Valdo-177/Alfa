@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import {Rajdhani} from "next/font/google";
+import { Rajdhani } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/layout/Nav";
+import Footer from "@/components/layout/Footer";
 
-const rajdhani = Rajdhani({ subsets: ['latin'], weight: ["300","400","500","600","700"] })
+const rajdhani = Rajdhani({ subsets: ['latin'], weight: ["300", "400", "500", "600", "700"] })
 
 export const metadata: Metadata = {
   title: "Alfa | Medidores de Temperatura para Paneles Solares",
@@ -47,8 +48,9 @@ export default function RootLayout({
       <body
         className={rajdhani.className}
       >
-        <Nav/>
+        <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Video from '@/assets/Video.svg'
+import Video from '@/assets/heroLed.jpg'
 
 const CardHero = () => {
     return (
@@ -9,7 +9,7 @@ const CardHero = () => {
                 <span className='text-7xl font-bold text-[#0052B4]'>+1</span>
                 <p className='font-semibold text-xl w-[17rem] text-center'>Soluciones duraderas para un mundo sostenible.</p>
             </div>
-            <Image src={Video} alt='' />
+            <Image src={Video} alt='' className='rounded-[8px] h-[14rem] object-cover'/>
         </div>
     )
 }

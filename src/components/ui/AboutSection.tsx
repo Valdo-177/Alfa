@@ -4,7 +4,7 @@ import nosotros from '@/assets/nosotros.png'
 
 const AboutSection = () => {
     return (
-        <section className='sm:h-[45rem] flex items-center justify-center px-4 sm:px-0'>
+        <section className='sm:h-[45rem] flex items-center justify-center px-4 sm:px-0' id='Quiénes Somos'>
             <div className='sm:w-[80rem] mx-auto flex flex-col gap-2 items-start relative overflow-hidden sm:overflow-visible'>
                 <h4 className='text-[#36BA6F] text-2xl'>Quiénes Somos</h4>
                 <h2 className='text-3xl font-semibold sm:w-[30rem]'>En Alfa, somos líderes en la fabricación de medidores de temperatura para paneles solares. </h2>
